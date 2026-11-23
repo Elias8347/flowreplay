@@ -1,0 +1,14 @@
+{
+  "name": "flowreplay",
+  "version": "0.1.0",
+  "description": "Rebuild past perps order flow and review your entries against it. Read-only, local-first, no dependencies.",
+  "type": "module",
+  "bin": { "flowreplay": "bin/flowreplay.js" },
+  "files": ["bin", "src", "LICENSE", "README.md"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": { "node": ">=22" },
+  "keywords": ["orderflow", "footprint", "cvd", "perpetuals", "prop-trading", "trade-journal", "myfundedperps"],
+  "license": "MIT"
+}
